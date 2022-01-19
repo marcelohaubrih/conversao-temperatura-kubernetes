@@ -18,3 +18,10 @@
 - COPY vs ADD Sempre utilizar o COPY.
 - Utilizar MultiStage Build em linguagens Compiladas para gerar imagens menores
 
+# Inserir o projeto em um kluster kubernetes
+> Usando o Kind como serviço de cluster kubernetes
+### - Crie o cluster com o comando 
+``$ kind create cluster --config ./k8s/cluster.yaml ``
+
+### - Crie seu deploy usando o seguinte comando o
+``$kubectl apply -f  ./k8s/deployment.yaml``
