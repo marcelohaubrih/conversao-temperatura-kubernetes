@@ -21,7 +21,7 @@
 # Inserir o projeto em um kluster kubernetes
 > Usando o Kind como serviço de cluster kubernetes
 ### - Crie o cluster com o comando 
-``$ kind create cluster --config ./k8s/cluster.yaml ``
+``$ kind create cluster --config k8s/cluster.yaml ``
 
 ### - Crie seu deploy usando o seguinte comando o
-``$kubectl apply -f  ./k8s/deployment.yaml``
+``$kubectl apply -f k8s/deployment.yaml``
